@@ -1,0 +1,12 @@
+{
+  "name": "myblog",
+  "version": "0.0.1",
+  "description": "build my blog for static html/markdown by Evan You's vuepress",
+  "main": "index.js",
+  "scripts": {
+    "docs:build": "vuepress build ."
+  },
+  "keywords": ["vuepress", "blog"],
+  "author": "zifengb <987400803@qq.com>",
+  "license": "MIT"
+}

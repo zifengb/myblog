@@ -19,9 +19,22 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Blog', link: '/blog/' },
-      { text: 'Github', link: 'http://github.com/zifengb' },
+      // { text: 'Github', link: 'http://github.com/zifengb' },
     ],
-    lastUpdated: '最后更新'
+    lastUpdated: '最后更新',
+    // 导航栏repo链接
+    repo: 'zifengb/zifengb.github.io',
+    repoLabel: 'Repository',
+    // // 假如你的文档仓库和项目本身不在一个仓库：
+    // docsRepo: 'zifengb/zifengb.github.io',
+    // // 假如文档不是放在仓库的根目录下：
+    // docsDir: '/',
+    // // 假如文档放在一个特定的分支下：
+    // docsBranch: 'master',
+    // // 默认是 false, 设置为 true 来启用
+    // editLinks: true,
+    // // 默认为 "Edit this page"
+    // editLinkText: 'Github Issue'
   },
   markdown: {
     lineNumbers: true,  // don't work?

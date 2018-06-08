@@ -50,7 +50,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        '@img': './public/images'  // 设置相对路径别名
+        '@img': './public/images'  // 设置相对路径别名，不起效？
       }
     }
   },

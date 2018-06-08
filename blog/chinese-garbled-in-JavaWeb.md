@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 prev: /blog/regexp-in-js.html
+next: /blog/es6-block-scope.html
 ---
 
 # 中文乱码之填坑Java web

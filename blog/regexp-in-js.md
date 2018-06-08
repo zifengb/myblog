@@ -1,5 +1,6 @@
-﻿---
+---
 sidebar: auto
+next: /blog/chinese-garbled-in-JavaWeb.html
 ---
 
 

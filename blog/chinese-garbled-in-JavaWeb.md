@@ -1,8 +1,10 @@
-﻿# 中文乱码之填坑Java web
-
-标签（空格分隔）： java web 中文乱码 编码
-
 ---
+sidebar: auto
+prev: /blog/regexp-in-js.html
+---
+
+# 中文乱码之填坑Java web
+
 
 ### 导言
 
@@ -109,7 +111,7 @@ UTF-8编码
 
 举个栗子，例如以下URL：
 
-    http://localhost:8080/examples/servlets/servlet/君山?author=君山
+```http://localhost:8080/examples/servlets/servlet/君山?author=君山```
 
 图示：
 
@@ -125,9 +127,11 @@ URL说明：
 
 ？？？那么上面的http请求中PathInfo和QueryString部分出现了中文，当这个URL在网络传输的时候会怎么编码和解析呢
 
-    chrome 54.0结果如下：
-    Request URL:http://localhost:8080/examples/servlets/servlet/%E5%90%9B%E5%B1%B1?author=%E5%90%9B%E5%B1%B1
-    
+::: tip
+chrome 54.0结果如下：<br/>
+Request URL:http://localhost:8080/examples/servlets/servlet/%E5%90%9B%E5%B1%B1?author=%E5%90%9B%E5%B1%B1
+:::
+
 > * PathInfo的“君山”编码为E5 90 9B E5 B1 B1
 > * QueryString的“君山”编码为E5 90 9B E5 B1 B1
 
@@ -165,8 +169,8 @@ URL说明：
 ```html
 <html>
 <head>
-<script src="statics/javascript/script.js" charset="GBK"></scrit>
-<head/>
+<script src="statics/javascript/script.js" charset="GBK"></script>
+</head>
 ```
 
 script.js如下：
@@ -175,6 +179,7 @@ script.js如下：
 document.write("这是中文");
 document.getElementById("testid").innerHTML = "这是中文";
 ```
+
 如果外部引用的script.js编码格式与当前页面的不一致，也会发生中文乱码问题！！！此时可以在引用外部js文件的标签里设置解码格式charset。避免中文的乱码
 
 ### JS的URL编码
@@ -204,10 +209,10 @@ document.getElementById("testid").innerHTML = "这是中文";
 ### 其他需要编码的地方
 xml:
 
-    <?xml version="1.0" encoding="UTF-8">
-    
+```<?xml version="1.0" encoding="UTF-8">```
+
 jsp:
 
-    <%@page contentType="text/html" pageEncoding="UTF-8" %>
-    
+```<%@page contentType="text/html" pageEncoding="UTF-8" %>```
+
 

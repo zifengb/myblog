@@ -1,7 +1,8 @@
 ---
 sidebar: auto
-date: 2018/6/8 12点58分
+date: 2017/10/15
 prev: /blog/parseInt-in-js.html
+next: /blog/cordova-f7-vue.html
 ---
 
 # JavaScript之原型解析（上）

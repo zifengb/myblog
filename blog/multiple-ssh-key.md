@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+date: 2017/05/11
 prev: /blog/css-operated-in-js.html
 next: /blog/parseInt-in-js.html
 ---

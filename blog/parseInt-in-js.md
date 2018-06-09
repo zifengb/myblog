@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+date: 2017/08/05
 prev: /blog/multiple-ssh-key.html
 next: /blog/prototype-in-js.html
 ---

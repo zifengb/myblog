@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+date: 2017/04/10
 prev: /blog/cmd-shell.html
 next: /blog/multiple-ssh-key.html
 ---

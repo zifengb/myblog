@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+date: 2016/11/23
 prev: /blog/regexp-in-js.html
 next: /blog/es6-block-scope.html
 ---

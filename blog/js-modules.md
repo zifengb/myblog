@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+date: 2017/02/24
 prev: /blog/es6-block-scope.html
 next: /blog/cmd-shell.html
 ---

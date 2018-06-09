@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+date: 2016/10/11
 next: /blog/chinese-garbled-in-JavaWeb.html
 ---
 

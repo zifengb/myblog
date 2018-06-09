@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+date: 2017/02/23
 prev: /blog/chinese-garbled-in-JavaWeb.html
 next: /blog/js-modules.html
 ---

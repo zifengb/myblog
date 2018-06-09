@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+date: 2017/03/20
 prev: /blog/js-modules.html
 next: /blog/css-operated-in-js.html
 ---

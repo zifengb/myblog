@@ -18,6 +18,13 @@ prev: /blog/cordova-f7-vue.html
 svn --version
 ```
 
+**如果你安装了SVN，但是仍然发现`svn`命令不可以使用，这说明你没有安装CLI**
+（以windows为例，进入控制面板修改SVN安装的配置）
+
+![](./images/download-github-repo-folder/2018-07-30_204101.jpg)
+
+完成后，重新使用`cmd/powershell`测试！
+
 如果正常输出版本信息等内容，则可以进行下一步，假设你需要下载的目录是：
 `https://github.com/mattboldt/typed.js/tree/master/lib`
 按以下情况分别替换路径

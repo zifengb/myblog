@@ -4,7 +4,8 @@
   "description": "build my blog for static html/markdown by Evan You's vuepress",
   "main": "index.js",
   "scripts": {
-    "docs:build": "vuepress build ."
+    "docs:build": "vuepress build .",
+    "dev": "vuepress dev ."
   },
   "keywords": ["vuepress", "blog"],
   "author": "zifengb <987400803@qq.com>",

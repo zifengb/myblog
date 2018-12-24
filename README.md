@@ -10,5 +10,5 @@ features:
   details: 西南不知名小镇，小初高均就读地方学校，大学就读于广东省某男子大学，大学二年级入坑猿界
 - title: Skills
   details: 熟悉HTML/CSS和Javascript，会一点点Java，数据库CRUD，编程路上的前行者一枚
-footer: Power by vuepress, Thx for Evan You | Copyright © 2018-present zifengb
+footer: 粤ICP备16032432号-1 | Power by vuepress, Thanks to Evan You | Copyright © 2018-2019 zifengb
 ---

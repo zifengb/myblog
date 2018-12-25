@@ -35,7 +35,7 @@ next: /blog/cmd-shell.html
 
 比如下面这张图，为了把功能有逻辑有条理地分离，引用时，竟丑陋...（而且还有注意文件引入的顺序）：
 
-![这里写图片描述](http://img.blog.csdn.net/20170224231848649?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvREJCX3ppZmVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![这里写图片描述](https://img-blog.csdn.net/20170224231848649?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvREJCX3ppZmVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 
 除了客户端，还有服务端呢...所以js模块化编程是势在必行的，js模块化有以下几种CommonJS、AMD/CMD、UMD

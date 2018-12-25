@@ -81,23 +81,23 @@ next: /blog/es6-block-scope.html
 
 ISO-8859-1编码
 
-![这里写图片描述](http://img.blog.csdn.net/20161123135616208)
+![这里写图片描述](https://img-blog.csdn.net/20161123135616208)
 
 GB2312编码
 
-![这里写图片描述](http://img.blog.csdn.net/20161123135715382)
+![这里写图片描述](https://img-blog.csdn.net/20161123135715382)
 
 GBK编码
 
-![这里写图片描述](http://img.blog.csdn.net/20161123135750855)
+![这里写图片描述](https://img-blog.csdn.net/20161123135750855)
 
 UTF-16编码
 
-![这里写图片描述](http://img.blog.csdn.net/20161123135819433)
+![这里写图片描述](https://img-blog.csdn.net/20161123135819433)
 
 UTF-8编码
 
-![这里写图片描述](http://img.blog.csdn.net/20161123135856465)
+![这里写图片描述](https://img-blog.csdn.net/20161123135856465)
 
 - [x] deng...deng~ 下面进入这篇文章的主题
 
@@ -107,7 +107,7 @@ UTF-8编码
 
 - [ ] 一次HTTP请求的编码示例图
 
-![这里写图片描述](http://img.blog.csdn.net/20161123134338239)
+![这里写图片描述](https://img-blog.csdn.net/20161123134338239)
 
 ### URL的编解码
 
@@ -117,7 +117,7 @@ UTF-8编码
 
 图示：
 
-![这里写图片描述](http://img.blog.csdn.net/20161123134419942)
+![这里写图片描述](https://img-blog.csdn.net/20161123134419942)
 
 URL说明：
 

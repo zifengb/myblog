@@ -40,7 +40,7 @@ next: /blog/js-modules.html
 
 以上例子才是js作用域的真正体现！以函数为界限，js由內至外形成一个作用域链，外部作用域不可以访问内部作用域，内部作用则可以访问外部作用域。以下图片可以简单说明作用域链是啥东东：
 
-![作用域链示意图](http://img.blog.csdn.net/20170223163302750?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvREJCX3ppZmVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![作用域链示意图](https://img-blog.csdn.net/20170223163302750?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvREJCX3ppZmVuZw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ---
 

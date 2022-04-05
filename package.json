@@ -5,9 +5,18 @@
   "main": "index.js",
   "scripts": {
     "docs:build": "vuepress build .",
-    "dev": "vuepress dev ."
+    "dev": "vuepress dev . --temp .temp"
   },
-  "keywords": ["vuepress", "blog"],
+  "keywords": [
+    "vuepress",
+    "blog"
+  ],
   "author": "zifengb <987400803@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "devDependencies": {
+    "vuepress-theme-reco": "^1.6.11"
+  }
 }

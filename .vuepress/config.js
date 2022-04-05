@@ -15,6 +15,7 @@ module.exports = {
   // title: 'zifengb\'s Blog',  // 页头
   // description: 'Just playing around', // 描述
   // serviceWorker: true,
+  theme: 'reco',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -24,7 +25,7 @@ module.exports = {
     lastUpdated: '最后更新',
     // 导航栏repo链接
     repo: 'zifengb/zifengb.github.io',
-    repoLabel: 'Repository',
+    repoLabel: 'Github',
     // // 假如你的文档仓库和项目本身不在一个仓库：
     // docsRepo: 'zifengb/zifengb.github.io',
     // // 假如文档不是放在仓库的根目录下：

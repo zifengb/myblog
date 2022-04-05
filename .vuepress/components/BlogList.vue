@@ -3,8 +3,8 @@
 <template>
   <div class="blog-list">
     <ul class="list">
-      <li v-for="item in list">
-        <router-link :to="item.path">{{ item.title }}</router-link> - {{ new Date(item.lastUpdated).toLocaleString() }}
+      <li v-for="item in list" :key="item.key">
+        <router-link :to="item.path">{{ item.title }}</router-link> - {{ item.lastUpdated }}
       </li>
     </ul>
   </div>
@@ -19,7 +19,10 @@
       }
     },
     created() {
-      this.list = this.$site.pages.filter(el => /^\/blog\/.+/.test(el.path))
+      let blogList = this.$site.pages.filter(el => /^\/blog\/.+/.test(el.path))
+      this.list = blogList.sort((a, b) => {
+        return b.lastUpdatedTimestamp - a.lastUpdatedTimestamp
+      })
       // console.dir(this.$site.pages)
       // console.log(JSON.stringify(this.$site.pages))
     }
